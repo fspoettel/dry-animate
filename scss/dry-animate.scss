@@ -9,16 +9,11 @@
 
 // Default duration
 $da-duration: 1s;
-$da-placeholders: true;
 
 // Used animations. Can be single animations, animation-groups, or "all"
-$da-use: ("all");
+$da-use: (all);
 
 // Imports
 ///////////////////////////////
 
 @import "dry-animate/scaffold";
-
-body {
-  @include animate("bounce");
-}

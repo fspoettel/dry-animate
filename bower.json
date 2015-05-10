@@ -1,10 +1,10 @@
 {
   "name": "dry-animate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     "felics <fspoettel@gmail.com>"
   ],
-  "description": "DRY .scss-version of Animate.css",
+  "description": "DRY .scss version of Animate.css",
   "main": "./scss/dry-animate.scss",
   "keywords": [
     "scss",
