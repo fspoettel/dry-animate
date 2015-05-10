@@ -15,11 +15,12 @@ bower install dry-animate
 // Declare the used animations as a list.
 // Can be single animations (fadeIn), groups (attention_seekers) or simply all
 // Default: all
-$da-use: ();
+$da-use: (fadeIn, zooming_entrances);
 
-// The library now imports the right keyframes for you and checks
+// The library now imports the right keyframes for you
 
 // Use the mixin
+// If you forget to declare valid $da-use for the animations you are using, the mixin will throw an error
 body {
   @include animate(fadeIn, $duration: $da-duration, $delay: 0, $iterations: 1);
 }
