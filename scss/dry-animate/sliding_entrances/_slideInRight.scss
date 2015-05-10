@@ -1,0 +1,20 @@
+
+//////////////////////////////
+// slideInRight.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/sliding_entrances/slideInRight.css
+///////////////////////////////
+
+%slideInRight {
+  @at-root {
+    @keyframes slideInRight {
+      0% {
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+}

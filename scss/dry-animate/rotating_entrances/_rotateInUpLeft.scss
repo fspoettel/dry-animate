@@ -1,0 +1,23 @@
+
+//////////////////////////////
+// rotateInUpLeft.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/rotating_entrances/rotateInUpLeft.css
+///////////////////////////////
+
+%rotateInUpLeft {
+  @at-root {
+    @keyframes rotateInUpLeft {
+      0% {
+        transform-origin: left bottom;
+        transform: rotate3d(0, 0, 1, 45deg);
+        opacity: 0;
+      }
+
+      100% {
+        transform-origin: left bottom;
+        transform: none;
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+
+//////////////////////////////
+// rollIn.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/specials/rollIn.css
+///////////////////////////////
+
+%rollIn {
+  @at-root {
+    @keyframes rollIn {
+      0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      }
+
+      100% {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+}

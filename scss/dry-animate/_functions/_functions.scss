@@ -1,0 +1,88 @@
+
+//////////////////////////////
+// functions.scss
+// MIT LICENSE © 2015 Felix Spöttel
+///////////////////////////////
+
+// Variable transformation
+///////////////////////////////
+
+@function da-toValue($value) {
+  $val: unquote($value + "");
+  @return $val;
+}
+
+@function da-toStr($value) {
+  $str: $value + "";
+  @return $str;
+}
+
+@function da-toTime($value) {
+  $time: $value + "";
+  @if (str-index($time, s) == null) {
+    $time: unquote($time + "s");
+  }
+  @else {
+    $time: da-toValue($time);
+  }
+  @return $time;
+}
+
+// Check if a value is in a declared group
+///////////////////////////////
+
+@function da-in-category($value, $target-list, $categories-map: $da-categories) {
+
+  $in-category: false;
+
+  @each $category, $list in $categories-map {
+
+    @if sl-contain($list, $value) {
+
+      $category: da-toValue($category);
+
+      @if sl-contain($target-list, $category) {
+        $in-category: true;
+      }
+
+    }
+  }
+
+  @return $in-category;
+
+}
+
+// Wrapper function around $da-use & $da-in-category
+///////////////////////////////
+
+@function da-valid($value, $list: $da-use) {
+  // Normalize input
+  $value: da-toValue($value);
+  $list: sl-to-list($list);
+
+
+  @if sl-contain($list, $value) {
+    @return true;
+  }
+  @else if sl-contain($list, "all") {
+    @return true;
+  }
+  @else if da-in-category($value, $list) {
+    @return true;
+  }
+  @else {
+    @return false;
+  }
+}
+
+
+// Aliases for wrapper
+///////////////////////////////
+
+@function da-import($value, $list: $da-use) {
+  @return da-valid($value,$list);
+}
+
+@function da-render($value, $list: $da-use) {
+  @return da-valid($value,$list);
+}

@@ -1,0 +1,29 @@
+
+//////////////////////////////
+// mixin.scss
+// MIT LICENSE © 2015 Felix Spöttel
+///////////////////////////////
+
+
+// Main plugin interface
+///////////////////////////////
+
+@mixin animate($name, $duration: 1s, $delay: 0s, $iterations: 1, $fillmode: both) {
+
+      // Normalize input
+      $name: da-toValue($name);
+      $iterations: da-toValue($iterations);
+      $delay: da-toTime($delay);
+      $duration: da-toTime($duration);
+
+      // Render an error to the console if a keyframe is not declared but used
+      @if da-render($name) == true {
+        @extend %#{$name};
+        animation: $name $duration $delay $iterations;
+        animation-fill-mode: $fillmode;
+      } @else {
+        @error "Neither #{$name}, nor 'all', nor #{$name}'s parent-group are declared in $da-use."
+      }
+
+
+}

@@ -1,0 +1,19 @@
+
+//////////////////////////////
+// fadeIn.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/fading_entrances/fadeIn.css
+///////////////////////////////
+
+%fadeIn {
+  @at-root {
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+
+//////////////////////////////
+// dry-animate.scss
+// MIT LICENSE © 2015 Felix Spöttel
+///////////////////////////////
+
+// Config
+///////////////////////////////
+
+// Default duration
+$da-duration: 1s;
+$da-placeholders: true;
+
+// Used animations. Can be single animations, animation-groups, or "all"
+$da-use: ("all");
+
+// Imports
+///////////////////////////////
+
+@import "dry-animate/scaffold";
+
+body {
+  @include animate("bounce");
+}

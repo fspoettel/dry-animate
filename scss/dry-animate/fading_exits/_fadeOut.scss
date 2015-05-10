@@ -1,0 +1,19 @@
+
+//////////////////////////////
+// fadeOut.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/fading_exits/fadeOut.css
+///////////////////////////////
+
+%fadeOut {
+  @at-root {
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+  }
+}

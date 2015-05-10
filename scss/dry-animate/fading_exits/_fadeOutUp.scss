@@ -1,0 +1,20 @@
+
+//////////////////////////////
+// fadeOutUp.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/fading_exits/fadeOutUp.css
+///////////////////////////////
+
+%fadeOutUp {
+  @at-root {
+    @keyframes fadeOutUp {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+      }
+    }
+  }
+}

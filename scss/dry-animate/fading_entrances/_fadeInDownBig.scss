@@ -1,0 +1,21 @@
+
+//////////////////////////////
+// fadeInDownBig.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/fading_entrances/fadeInDownBig.css
+///////////////////////////////
+
+%fadeInDownBig {
+  @at-root {
+    @keyframes fadeInDownBig {
+      0% {
+        opacity: 0;
+        transform: translate3d(0, -2000px, 0);
+      }
+
+      100% {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+}

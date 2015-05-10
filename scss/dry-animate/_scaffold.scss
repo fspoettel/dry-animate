@@ -1,0 +1,329 @@
+
+//////////////////////////////
+// base.scss
+// MIT LICENSE © 2015 Felix Spöttel
+///////////////////////////////
+
+// List representation of groups/animations
+@import "_functions/categories";
+
+// Functions
+@import "_functions/SassyLists";
+@import "_functions/functions";
+@import "_functions/mixin";
+
+// Attention Seekers
+@if da-import("bounce") {
+  @import "attention_seekers/bounce";
+}
+
+@if da-import("flash") == true {
+  @import "attention_seekers/flash";
+}
+
+@if da-import("pulse") == true {
+  @import "attention_seekers/pulse";
+}
+
+@if da-import("rubberBand") == true {
+  @import "attention_seekers/rubberBand";
+}
+
+@if da-import("shake") == true {
+  @import "attention_seekers/shake";
+}
+
+@if da-import("swing") == true {
+  @import "attention_seekers/swing";
+}
+
+@if da-import("tada") == true {
+  @import "attention_seekers/tada";
+}
+
+@if da-import("wobble") == true {
+  @import "attention_seekers/wobble";
+}
+
+// Bouncing Entrances
+@if da-import("bounceIn") == true {
+  @import "bouncing_entrances/bounceIn";
+}
+
+@if da-import("bounceInDown") == true {
+  @import "bouncing_entrances/bounceInDown";
+}
+
+@if da-import("bounceInLeft") == true {
+  @import "bouncing_entrances/bounceInLeft";
+}
+
+@if da-import("bounceInRight") == true {
+  @import "bouncing_entrances/bounceInRight";
+}
+
+@if da-import("bounceInUp") == true {
+  @import "bouncing_entrances/bounceInUp";
+}
+
+
+// Bouncing Exits
+@if da-import("bounceOut") == true {
+  @import "bouncing_exits/bounceOut";
+}
+
+@if da-import("bounceOutDown") == true {
+  @import "bouncing_exits/bounceOutDown";
+}
+
+@if da-import("bounceOutLeft") == true {
+  @import "bouncing_exits/bounceOutLeft";
+}
+
+@if da-import("bounceOutRight") == true {
+  @import "bouncing_exits/bounceOutRight";
+}
+
+@if da-import("bounceOutUp") == true {
+  @import "bouncing_exits/bounceOutUp";
+}
+
+// Fading Entrances
+@if da-import("fadeIn") == true {
+  @import "fading_entrances/fadeIn";
+}
+
+@if da-import("fadeInDown") == true {
+  @import "fading_entrances/fadeInDown";
+}
+
+@if da-import("fadeInDownBig") == true {
+  @import "fading_entrances/fadeInDownBig";
+}
+
+@if da-import("fadeInLeft") == true {
+  @import "fading_entrances/fadeInLeft";
+}
+
+@if da-import("fadeInLeftBig") == true {
+  @import "fading_entrances/fadeInLeftBig";
+}
+
+@if da-import("fadeInRight") == true {
+  @import "fading_entrances/fadeInRight";
+}
+
+@if da-import("fadeInRightBig") == true {
+  @import "fading_entrances/fadeInRightBig";
+}
+
+@if da-import("fadeInUp") == true {
+  @import "fading_entrances/fadeInUp";
+}
+
+@if da-import("fadeInUpBig") == true {
+  @import "fading_entrances/fadeInUpBig";
+}
+
+
+// Fading Exits
+@if da-import("fadeOut") == true {
+  @import "fading_exits/fadeOut";
+}
+
+@if da-import("fadeOutDown") == true {
+  @import "fading_exits/fadeOutDown";
+}
+
+@if da-import("fadeOutDownBig") == true {
+  @import "fading_exits/fadeOutDownBig";
+}
+
+@if da-import("fadeOutLeft") == true {
+  @import "fading_exits/fadeOutLeft";
+}
+
+@if da-import("fadeOutLeftBig") == true {
+  @import "fading_exits/fadeOutLeftBig";
+}
+
+@if da-import("fadeOutRight") == true {
+  @import "fading_exits/fadeOutRight";
+}
+
+@if da-import("fadeOutRightBig") == true {
+  @import "fading_exits/fadeOutRightBig";
+}
+
+@if da-import("fadeOutUp") == true {
+  @import "fading_exits/fadeOutUp";
+}
+
+@if da-import("fadeOutUpBig") == true {
+  @import "fading_exits/fadeOutUpBig";
+}
+
+
+// Flippers
+@if da-import("flip") == true {
+  @import "flippers/flip";
+}
+
+@if da-import("flipInX") == true {
+  @import "flippers/flipInX";
+}
+
+@if da-import("flipInY") == true {
+  @import "flippers/flipInY";
+}
+
+@if da-import("flipOutX") == true {
+  @import "flippers/flipOutX";
+}
+
+@if da-import("flipOutY") == true {
+  @import "flippers/flipOutY";
+}
+
+// Lightspeed
+@if da-import("lightSpeedIn") == true {
+  @import "lightspeed/lightSpeedIn";
+}
+
+@if da-import("lightSpeedOut") == true {
+  @import "lightspeed/lightSpeedOut";
+}
+
+// Rotating Entrances
+@if da-import("rotateIn") == true {
+  @import "rotating_entrances/rotateIn";
+}
+
+@if da-import("rotateInDownLeft") == true {
+  @import "rotating_entrances/rotateInDownLeft";
+}
+
+@if da-import("rotateInDownRight") == true {
+  @import "rotating_entrances/rotateInDownRight";
+}
+
+@if da-import("rotateInUpLeft") == true {
+  @import "rotating_entrances/rotateInUpLeft";
+}
+
+@if da-import("rotateInUpRight") == true {
+  @import "rotating_entrances/rotateInUpRight";
+}
+
+// Rotating Exits
+@if da-import("rotateOut") == true {
+  @import "rotating_exits/rotateOut";
+}
+
+@if da-import("rotateOutDownLeft") == true {
+  @import "rotating_exits/rotateOutDownLeft";
+}
+
+@if da-import("rotateOutDownRight") == true {
+  @import "rotating_exits/rotateOutDownRight";
+}
+
+@if da-import("rotateOutUpLeft") == true {
+  @import "rotating_exits/rotateOutUpLeft";
+}
+
+@if da-import("rotateOutUpRight") == true {
+  @import "rotating_exits/rotateOutUpRight";
+}
+
+
+// Sliding Entrances
+@if da-import("slideInDown") == true {
+  @import "sliding_entrances/slideInDown";
+}
+
+@if da-import("slideInLeft") == true {
+  @import "sliding_entrances/slideInLeft";
+}
+
+@if da-import("slideInRight") == true {
+  @import "sliding_entrances/slideInRight";
+}
+
+@if da-import("slideInUp") == true {
+  @import "sliding_entrances/slideInUp";
+}
+
+
+// Sliding Exits
+@if da-import("slideInDown") == true {
+  @import "sliding_exits/slideOutDown";
+}
+
+@if da-import("slideInLeft") == true {
+  @import "sliding_exits/slideOutLeft";
+}
+
+@if da-import("slideInRight") == true {
+  @import "sliding_exits/slideOutRight";
+}
+
+@if da-import("slideInUp") == true {
+  @import "sliding_exits/slideOutUp";
+}
+
+// Specials
+@if da-import("hinge") == true {
+  @import "specials/hinge";
+}
+
+@if da-import("rollIn") == true {
+  @import "specials/rollIn";
+}
+
+@if da-import("rollOut") == true {
+  @import "specials/rollOut";
+}
+
+// Zooming Entrances
+@if da-import("zoomIn") == true {
+  @import "zooming_entrances/zoomIn";
+}
+
+@if da-import("zoomInDown") == true {
+  @import "zooming_entrances/zoomInDown";
+}
+
+@if da-import("zoomInLeft") == true {
+  @import "zooming_entrances/zoomInLeft";
+}
+
+@if da-import("zoomInRight") == true {
+  @import "zooming_entrances/zoomInRight";
+}
+
+@if da-import("zoomInUp") == true {
+  @import "zooming_entrances/zoomInUp";
+}
+
+
+// Zooming Exits
+@if da-import("zoomOut") == true {
+  @import "zooming_exits/zoomOut";
+}
+
+@if da-import("zoomOutDown") == true {
+  @import "zooming_exits/zoomOutDown";
+}
+
+@if da-import("zoomOutLeft") == true {
+  @import "zooming_exits/zoomOutLeft";
+}
+
+@if da-import("zoomOutRight") == true {
+  @import "zooming_exits/zoomOutRight";
+}
+
+@if da-import("zoomOutUp") == true {
+  @import "zooming_exits/zoomOutUp";
+}

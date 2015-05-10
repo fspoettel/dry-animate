@@ -1,0 +1,32 @@
+
+//////////////////////////////
+// lightspeedIn.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/lightspeed/lightspeedIn.css
+///////////////////////////////
+
+%lightspeedIn {
+  animation-timing-function: ease-out;
+  @at-root {
+    @keyframes lightspeedIn {
+      0% {
+        transform: translate3d(100%, 0, 0) skewX(-30deg);
+        opacity: 0;
+      }
+
+      60% {
+        transform: skewX(20deg);
+        opacity: 1;
+      }
+
+      80% {
+        transform: skewX(-5deg);
+        opacity: 1;
+      }
+
+      100% {
+        transform: none;
+        opacity: 1;
+      }
+    }
+  }
+}

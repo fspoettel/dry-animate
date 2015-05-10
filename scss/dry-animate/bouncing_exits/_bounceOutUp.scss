@@ -1,0 +1,25 @@
+
+//////////////////////////////
+// bounceOutUp.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/bouncing_exits/bounceOutUp.css
+///////////////////////////////
+
+%bounceOutUp {
+  @at-root {
+    @keyframes bounceOutUp {
+      20% {
+        transform: translate3d(0, -10px, 0);
+      }
+
+      40%, 45% {
+        opacity: 1;
+        transform: translate3d(0, 20px, 0);
+      }
+
+      100% {
+        opacity: 0;
+        transform: translate3d(0, -2000px, 0);
+      }
+    }
+  }
+}

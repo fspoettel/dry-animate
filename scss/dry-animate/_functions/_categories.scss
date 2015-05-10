@@ -1,0 +1,119 @@
+
+//////////////////////////////
+// categories.scss
+// MIT LICENSE © 2015 Felix Spöttel
+///////////////////////////////
+
+$da-categories: (
+  "attention_seekers": (
+    bounce,
+    flash,
+    pulse,
+    rubberBand,
+    shake,
+    swing,
+    tada,
+    wobble
+  ),
+  "bouncing_entrances": (
+    bounceIn,
+    bounceInDown,
+    bounceInLeft,
+    bounceInRight,
+    bounceInUp
+  ),
+  "bouncing_exits": (
+    bounceIn,
+    bounceOutDown,
+    bounceOutLeft,
+    bounceOutRight,
+    bounceOutUp
+  ),
+  "fading_entrances": (
+    fadeIn,
+    fadeInDown,
+    fadeInDownBig,
+    fadeInLeft,
+    fadeInLeftBig,
+    fadeInRight,
+    fadeInRightBig,
+    fadeInUp,
+    fadeInUpBig
+  ),
+  "fading_exits": (
+    fadeOut,
+    fadeOutDown,
+    fadeOutDownBig,
+    fadeOutLeft,
+    fadeOutLeftBig,
+    fadeOutRight,
+    fadeOutRightBig,
+    fadeOutUp,
+    fadeOutUpBig
+  ),
+
+  "flippers": (
+    flip,
+    flipInX,
+    flipInY,
+    flipOutX,
+    flipOutY
+  ),
+
+  "lightspeed": (
+    lightspeedIn,
+    lightspeedOut
+  ),
+
+  "rotating_entrances": (
+    rotateIn,
+    rotateInDownLeft,
+    rotateInDownRight,
+    rotateInUpLeft,
+    rotateInUpRight
+  ),
+
+  "rotating_exits": (
+    rotateOut,
+    rotateOutDownLeft,
+    rotateOutDownRight,
+    rotateOutUpLeft,
+    rotateOutUpRight
+  ),
+
+  "sliding_entrances": (
+    slideInDown,
+    slideInLeft,
+    slideInRight,
+    slideInUp
+  ),
+
+  "sliding_exits": (
+    slideOutDown,
+    slideOutLeft,
+    slideOutRight,
+    slideOutUp
+  ),
+
+  "specials": (
+    hinge,
+    rollIn,
+    rollOut
+  ),
+
+  "zooming_entrances": (
+    zoomIn,
+    zoomInDown,
+    zoomInLeft,
+    zoomInRight,
+    zoomInUp
+  ),
+
+  "zooming_exits": (
+    zoomOut,
+    zoomOutDown,
+    zoomOutLeft,
+    zoomOutRight,
+    zoomOutUp
+  )
+);

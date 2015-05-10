@@ -1,0 +1,20 @@
+
+//////////////////////////////
+// zoomIn.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/zooming_entrances/zoomIn.css
+///////////////////////////////
+
+%zoomIn {
+  @at-root {
+    @keyframes zoomIn {
+      0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+  }
+}

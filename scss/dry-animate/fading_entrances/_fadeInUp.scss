@@ -1,0 +1,21 @@
+
+//////////////////////////////
+// fadeInUp.scss
+// @src - https://github.com/daneden/animate.css/blob/master/source/fading_entrances/fadeInUp.css
+///////////////////////////////
+
+%fadeInUp {
+  @at-root {
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+      }
+
+      100% {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+}

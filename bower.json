@@ -1,0 +1,29 @@
+{
+  "name": "dry-animate",
+  "version": "0.0.0",
+  "authors": [
+    "felics <fspoettel@gmail.com>"
+  ],
+  "description": "DRY .scss-version of Animate.css",
+  "main": "./scss/dry-animate.scss",
+  "keywords": [
+    "scss",
+    "animate",
+    "animate.css",
+    "dry",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulpfile.js"
+  ],
+  "devDependencies": {
+    "animate.css": "~3.2.6",
+    "SassyLists": "~2.2.4"
+  }
+}
