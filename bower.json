@@ -25,5 +25,6 @@
   "devDependencies": {
     "animate.css": "~3.2.6",
     "SassyLists": "~2.2.4"
-  }
+  },
+  "homepage": "https://github.com/felics/dry-animate"
 }
