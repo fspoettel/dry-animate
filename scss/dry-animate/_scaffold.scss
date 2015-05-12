@@ -21,6 +21,11 @@
   @import "attention_seekers/flash";
 }
 
+@if da-import("jello") == true {
+  @import "attention_seekers/jello";
+}
+
+
 @if da-import("pulse") == true {
   @import "attention_seekers/pulse";
 }
