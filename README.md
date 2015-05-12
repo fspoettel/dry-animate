@@ -15,7 +15,7 @@ bower install dry-animate
 // Declare the used animations as a list.
 // Can be single animations (fadeIn), groups (attention_seekers) or simply all
 // Default: all
-$da-use: ();
+$da-animations: (attention_seekers,fadeIn);
 
 // The library now imports the right keyframes for you and checks
 

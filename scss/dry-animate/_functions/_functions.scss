@@ -52,10 +52,10 @@
 
 }
 
-// Wrapper function around $da-use & $da-in-category
+// Wrapper function around $da-animations & $da-in-category
 ///////////////////////////////
 
-@function da-valid($value, $list: $da-use) {
+@function da-valid($value, $list: $da-animations) {
   // Normalize input
   $value: da-toValue($value);
   $list: sl-to-list($list);
@@ -79,10 +79,10 @@
 // Aliases for wrapper
 ///////////////////////////////
 
-@function da-import($value, $list: $da-use) {
+@function da-import($value, $list: $da-animations) {
   @return da-valid($value,$list);
 }
 
-@function da-render($value, $list: $da-use) {
+@function da-render($value, $list: $da-animations) {
   @return da-valid($value,$list);
 }
