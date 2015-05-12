@@ -64,7 +64,7 @@
   @if sl-contain($list, $value) {
     @return true;
   }
-  @else if sl-contain($list, "all") {
+  @else if sl-contain($list, all) {
     @return true;
   }
   @else if da-in-category($value, $list) {
