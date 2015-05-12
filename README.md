@@ -17,9 +17,10 @@ bower install dry-animate
 // Default: all
 $da-animations: (attention_seekers,fadeIn);
 
-// The library now imports the right keyframes for you and checks
+// The library now imports the right keyframes for you
 
 // Use the mixin
+// If you forget to declare valid $da-animations for the animations you are using, the mixin will throw an error
 body {
   @include animate(fadeIn, $duration: $da-duration, $delay: 0, $iterations: 1);
 }
