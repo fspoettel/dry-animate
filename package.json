@@ -1,0 +1,26 @@
+{
+  "name": "dry-animate",
+  "version": "0.2.0",
+  "description": "DRY .scss version of Animate.css",
+  "main": "/scss/_dry-animate.scss",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felics/dry-animate.scss.git"
+  },
+  "keywords": [
+    "scss",
+    "animate",
+    "animate.scss",
+    "dry"
+  ],
+  "author": "Felix Spöttel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felics/dry-animate.scss/issues"
+  },
+  "homepage": "https://github.com/felics/dry-animate.scss#readme"
+}
