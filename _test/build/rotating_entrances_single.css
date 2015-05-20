@@ -1,0 +1,54 @@
+/*! SassyLists - v2.2.0 - 2014-07-03 */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@keyframes rotateIn {
+  0% {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0; }
+  100% {
+    transform-origin: center;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInDownLeft {
+  0% {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0; }
+  100% {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInDownRight {
+  0% {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInUpLeft {
+  0% {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInUpRight {
+  0% {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0; }
+  100% {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1; } }
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
