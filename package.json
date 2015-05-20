@@ -1,6 +1,6 @@
 {
   "name": "dry-animate",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "DRY .scss version of Animate.css",
   "main": "/scss/_dry-animate.scss",
   "devDependencies": {
