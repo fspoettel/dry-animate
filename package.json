@@ -1,10 +1,11 @@
 {
   "name": "dry-animate",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "DRY .scss version of Animate.css",
   "main": "/scss/_dry-animate.scss",
   "devDependencies": {
     "gulp": "^3.8.11",
+    "gulp-ruby-sass": "^1.0.5",
     "gulp-sass": "^2.0.1"
   },
   "repository": {

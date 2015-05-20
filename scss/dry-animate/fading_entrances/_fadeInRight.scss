@@ -4,17 +4,19 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/fading_entrances/fadeInRight.css
 ///////////////////////////////
 
-%fadeInRight {
-  @at-root {
-    @keyframes fadeInRight {
-      0% {
-        opacity: 0;
-        transform: translate3d(100%, 0, 0);
-      }
+@if da-import("fadeInRight") == true {
+  %fadeInRight {
+    @at-root {
+      @keyframes fadeInRight {
+        0% {
+          opacity: 0;
+          transform: translate3d(100%, 0, 0);
+        }
 
-      100% {
-        opacity: 1;
-        transform: none;
+        100% {
+          opacity: 1;
+          transform: none;
+        }
       }
     }
   }

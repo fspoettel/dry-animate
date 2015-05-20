@@ -4,18 +4,20 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/rotating_exits/rotateOut.css
 ///////////////////////////////
 
-%rotateOut {
-  @at-root {
-    @keyframes rotateOut {
-      0% {
-        transform-origin: center;
-        opacity: 1;
-      }
+@if da-import("rotateOut") == true {
+  %rotateOut {
+    @at-root {
+      @keyframes rotateOut {
+        0% {
+          transform-origin: center;
+          opacity: 1;
+        }
 
-      100% {
-        transform-origin: center;
-        transform: rotate3d(0, 0, 1, 200deg);
-        opacity: 0;
+        100% {
+          transform-origin: center;
+          transform: rotate3d(0, 0, 1, 200deg);
+          opacity: 0;
+        }
       }
     }
   }

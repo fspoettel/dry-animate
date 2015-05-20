@@ -1,4 +1,7 @@
 bower_components/*
 node_modules/*
 
+_test/test.css
 .DS_Store
+
+.sass-cache/*

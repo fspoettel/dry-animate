@@ -1,0 +1,11 @@
+$da-duration: 1s;
+$da-animations: ("bounce", jello);
+@import "../../scss/dry-animate/scaffold";
+
+.test {
+  @include animate(bounce);
+}
+
+.test-2 {
+  @include animate("bounce");
+}

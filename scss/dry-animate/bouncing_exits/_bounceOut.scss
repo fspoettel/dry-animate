@@ -4,21 +4,23 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/bouncing_exits/bounceOut.css
 ///////////////////////////////
 
-%bounceOut {
-  @at-root {
-    @keyframes bounceOut {
-      20% {
-        transform: scale3d(.9, .9, .9);
-      }
+@if da-import("bounceOut") == true {
+  %bounceOut {
+    @at-root {
+      @keyframes bounceOut {
+        20% {
+          transform: scale3d(.9, .9, .9);
+        }
 
-      50%, 55% {
-        opacity: 1;
-        transform: scale3d(1.1, 1.1, 1.1);
-      }
+        50%, 55% {
+          opacity: 1;
+          transform: scale3d(1.1, 1.1, 1.1);
+        }
 
-      100% {
-        opacity: 0;
-        transform: scale3d(.3, .3, .3);
+        100% {
+          opacity: 0;
+          transform: scale3d(.3, .3, .3);
+        }
       }
     }
   }

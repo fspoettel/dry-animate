@@ -4,17 +4,19 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/bouncing_exits/bounceOutRight.css
 ///////////////////////////////
 
-%bounceOutRight {
-  @at-root {
-    @keyframes bounceOutRight {
-      20% {
-        opacity: 1;
-        transform: translate3d(-20px, 0, 0);
-      }
+@if da-import("bounceOutRight") == true {
+  %bounceOutRight {
+    @at-root {
+      @keyframes bounceOutRight {
+        20% {
+          opacity: 1;
+          transform: translate3d(-20px, 0, 0);
+        }
 
-      100% {
-        opacity: 0;
-        transform: translate3d(2000px, 0, 0);
+        100% {
+          opacity: 0;
+          transform: translate3d(2000px, 0, 0);
+        }
       }
     }
   }
