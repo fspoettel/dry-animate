@@ -5,7 +5,7 @@
     "felics <fspoettel@gmail.com>"
   ],
   "description": "DRY .scss version of Animate.css",
-  "main": "./scss/dry-animate.scss",
+  "main": "./scss/_dry-animate.scss",
   "keywords": [
     "scss",
     "animate",
