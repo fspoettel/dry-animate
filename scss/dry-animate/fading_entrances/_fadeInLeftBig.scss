@@ -4,17 +4,19 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/fading_entrances/fadeInLeftBig.css
 ///////////////////////////////
 
-%fadeInLeftBig {
-  @at-root {
-    @keyframes fadeInLeftBig {
-      0% {
-        opacity: 0;
-        transform: translate3d(-2000px, 0, 0);
-      }
+@if da-import("fadeInLeftBig") == true {
+  %fadeInLeftBig {
+    @at-root {
+      @keyframes fadeInLeftBig {
+        0% {
+          opacity: 0;
+          transform: translate3d(-2000px, 0, 0);
+        }
 
-      100% {
-        opacity: 1;
-        transform: none;
+        100% {
+          opacity: 1;
+          transform: none;
+        }
       }
     }
   }

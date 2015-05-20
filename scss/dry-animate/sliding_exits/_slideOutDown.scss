@@ -4,16 +4,18 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/sliding_exits/slideOutDown.css
 ///////////////////////////////
 
-%slideOutDown {
-  @at-root {
-    @keyframes slideOutDown {
-      0% {
-        transform: translate3d(0, 0, 0);
-      }
+@if da-import("slideOutDown") == true {
+  %slideOutDown {
+    @at-root {
+      @keyframes slideOutDown {
+        0% {
+          transform: translate3d(0, 0, 0);
+        }
 
-      100% {
-        visibility: hidden;
-        transform: translate3d(0, 100%, 0);
+        100% {
+          visibility: hidden;
+          transform: translate3d(0, 100%, 0);
+        }
       }
     }
   }

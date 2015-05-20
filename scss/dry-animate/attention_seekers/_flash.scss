@@ -4,15 +4,17 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/attention_seekers/flash.css
 ///////////////////////////////
 
-%flash {
-  @at-root {
-    @keyframes flash {
-      0%, 50%, 100% {
-        opacity: 1;
-      }
+@if da-import("flash") == true {
+  %flash {
+    @at-root {
+      @keyframes flash {
+        0%, 50%, 100% {
+          opacity: 1;
+        }
 
-      25%, 75% {
-        opacity: 0;
+        25%, 75% {
+          opacity: 0;
+        }
       }
     }
   }

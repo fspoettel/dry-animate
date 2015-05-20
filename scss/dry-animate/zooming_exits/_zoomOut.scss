@@ -4,20 +4,22 @@
 // @src - https://github.com/daneden/animate.css/blob/master/source/zooming_exits/zoomOut.css
 ///////////////////////////////
 
-%zoomOut {
-  @at-root {
-    @keyframes zoomOut {
-      0% {
-        opacity: 1;
-      }
+@if da-import("zoomOut") == true {
+  %zoomOut {
+    @at-root {
+      @keyframes zoomOut {
+        0% {
+          opacity: 1;
+        }
 
-      50% {
-        opacity: 0;
-        transform: scale3d(.3, .3, .3);
-      }
+        50% {
+          opacity: 0;
+          transform: scale3d(.3, .3, .3);
+        }
 
-      100% {
-        opacity: 0;
+        100% {
+          opacity: 0;
+        }
       }
     }
   }
