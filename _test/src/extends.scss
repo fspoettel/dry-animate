@@ -1,11 +1,67 @@
 $da-duration: 1s;
-$da-animations: (bounce);
+$da-animations: (bounce,jello,flippers,lightspeed);
 @import "../../scss/dry-animate/scaffold";
 
-.test {
+.bounce1 {
   @include animate(bounce);
 }
 
-.test-2 {
+.bounce2 {
   @include animate(bounce);
+}
+
+.jello1 {
+  @include animate(jello);
+}
+
+.jello2 {
+  @include animate(jello);
+}
+
+.flip1 {
+  @include animate(flip);
+}
+
+.flip2 {
+  @include animate(flip);
+}
+
+.flipInY1 {
+  @include animate(flipInY);
+}
+
+.flipInY2 {
+  @include animate(flipInY);
+}
+
+.flipInX1 {
+  @include animate(flipInX);
+}
+
+.flipInX2 {
+  @include animate(flipInX);
+}
+
+.flipOutY1 {
+  @include animate(flipOutY);
+}
+
+.flipOutY2 {
+  @include animate(flipOutY);
+}
+
+.flipOutX1 {
+  @include animate(flipOutX);
+}
+
+.flipOutX2 {
+  @include animate(flipOutX);
+}
+
+.lightSpeedIn {
+  @include animate(lightSpeedIn);
+}
+
+.lightSpeedOut {
+  @include animate(lightSpeedOut);
 }

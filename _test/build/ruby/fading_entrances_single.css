@@ -1,0 +1,65 @@
+/*! SassyLists - v2.2.0 - 2014-07-03 */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    transform: translate3d(-2000px, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */

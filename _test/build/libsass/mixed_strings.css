@@ -1,7 +1,4 @@
 /*! SassyLists - v2.2.0 - 2014-07-03 */
-.test, .test-2 {
-  transform-origin: center bottom; }
-
 @keyframes bounce {
   0%, 20%, 53%, 80%, 100% {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -14,6 +11,9 @@
     transform: translate3d(0, -15px, 0); }
   90% {
     transform: translate3d(0, -4px, 0); } }
+
+.test, .test-2 {
+  transform-origin: center bottom; }
 
 @keyframes jello {
   11.1% {
