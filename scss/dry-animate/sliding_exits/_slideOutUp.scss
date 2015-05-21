@@ -5,18 +5,14 @@
 ///////////////////////////////
 
 @if da-import("slideOutUp") == true {
-  %slideOutUp {
-    @at-root {
-      @keyframes slideOutUp {
-        0% {
-          transform: translate3d(0, 0, 0);
-        }
+  @keyframes slideOutUp {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
 
-        100% {
-          visibility: hidden;
-          transform: translate3d(0, -100%, 0);
-        }
-      }
+    100% {
+      visibility: hidden;
+      transform: translate3d(0, -100%, 0);
     }
   }
 }

@@ -18,7 +18,7 @@
 
       // Render an error to the console if a keyframe is not declared but used
       @if da-render($name) == true {
-        @extend %#{$name};
+        @extend %#{$name} !optional;
         animation: $name $duration $delay $iterations;
         animation-fill-mode: both;
       } @else {

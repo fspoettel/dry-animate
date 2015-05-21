@@ -5,22 +5,18 @@
 ///////////////////////////////
 
 @if da-import("zoomOut") == true {
-  %zoomOut {
-    @at-root {
-      @keyframes zoomOut {
-        0% {
-          opacity: 1;
-        }
+  @keyframes zoomOut {
+    0% {
+      opacity: 1;
+    }
 
-        50% {
-          opacity: 0;
-          transform: scale3d(.3, .3, .3);
-        }
+    50% {
+      opacity: 0;
+      transform: scale3d(.3, .3, .3);
+    }
 
-        100% {
-          opacity: 0;
-        }
-      }
+    100% {
+      opacity: 0;
     }
   }
 }
