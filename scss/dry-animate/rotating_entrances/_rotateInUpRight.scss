@@ -5,21 +5,17 @@
 ///////////////////////////////
 
 @if da-import("rotateInUpRight") == true {
-  %rotateInUpRight {
-    @at-root {
-      @keyframes rotateInUpRight {
-        0% {
-          transform-origin: right bottom;
-          transform: rotate3d(0, 0, 1, -90deg);
-          opacity: 0;
-        }
+  @keyframes rotateInUpRight {
+    0% {
+      transform-origin: right bottom;
+      transform: rotate3d(0, 0, 1, -90deg);
+      opacity: 0;
+    }
 
-        100% {
-          transform-origin: right bottom;
-          transform: none;
-          opacity: 1;
-        }
-      }
+    100% {
+      transform-origin: right bottom;
+      transform: none;
+      opacity: 1;
     }
   }
 }

@@ -7,18 +7,14 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @if da-import("rollOut") == true {
-  %rollOut {
-    @at-root {
-      @keyframes rollOut {
-        0% {
-          opacity: 1;
-        }
+  @keyframes rollOut {
+    0% {
+      opacity: 1;
+    }
 
-        100% {
-          opacity: 0;
-          transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
-        }
-      }
+    100% {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     }
   }
 }

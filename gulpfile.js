@@ -13,11 +13,11 @@ gulp.task("test_ruby", function() {
     .on('error', function (err) {
       console.error('Error!', err.message);
     })
-    .pipe(gulp.dest("./_test/build"));
+    .pipe(gulp.dest("./_test/build/ruby"));
 });
 
 gulp.task("test", function() {
   gulp.src("./_test/src/*.scss")
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest("./_test/build"));
+    .pipe(gulp.dest("./_test/build/libsass"));
 });

@@ -5,18 +5,14 @@
 ///////////////////////////////
 
 @if da-import("slideInUp") == true {
-  %slideInUp {
-    @at-root {
-      @keyframes slideInUp {
-        0% {
-          transform: translate3d(0, 100%, 0);
-          visibility: visible;
-        }
+  @keyframes slideInUp {
+    0% {
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
 
-        100% {
-          transform: translate3d(0, 0, 0);
-        }
-      }
+    100% {
+      transform: translate3d(0, 0, 0);
     }
   }
 }

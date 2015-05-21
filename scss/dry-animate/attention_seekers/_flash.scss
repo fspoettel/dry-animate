@@ -5,17 +5,13 @@
 ///////////////////////////////
 
 @if da-import("flash") == true {
-  %flash {
-    @at-root {
-      @keyframes flash {
-        0%, 50%, 100% {
-          opacity: 1;
-        }
+  @keyframes flash {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
 
-        25%, 75% {
-          opacity: 0;
-        }
-      }
+    25%, 75% {
+      opacity: 0;
     }
   }
 }
