@@ -6,12 +6,12 @@
 
 @if da-import("rollIn") == true {
   @keyframes rollIn {
-    0% {
+    from {
       opacity: 0;
       transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
     }
 
-    100% {
+    to {
       opacity: 1;
       transform: none;
     }

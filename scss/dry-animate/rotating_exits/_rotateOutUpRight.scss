@@ -6,12 +6,12 @@
 
 @if da-import("rotateOutUpRight") == true {
   @keyframes rotateOutUpRight {
-    0% {
+    from {
       transform-origin: right bottom;
       opacity: 1;
     }
 
-    100% {
+    to {
       transform-origin: right bottom;
       transform: rotate3d(0, 0, 1, 90deg);
       opacity: 0;

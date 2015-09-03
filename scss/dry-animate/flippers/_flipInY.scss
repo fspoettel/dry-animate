@@ -6,7 +6,7 @@
 
 @if da-import("flipInY") == true {
   @keyframes flipInY {
-    0% {
+    from {
       transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
       animation-timing-function: ease-in;
       opacity: 0;
@@ -26,7 +26,7 @@
       transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
     }
 
-    100% {
+    to {
       transform: perspective(400px);
     }
   }

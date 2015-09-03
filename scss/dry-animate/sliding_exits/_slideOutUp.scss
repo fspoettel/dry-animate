@@ -6,11 +6,11 @@
 
 @if da-import("slideOutUp") == true {
   @keyframes slideOutUp {
-    0% {
+    from {
       transform: translate3d(0, 0, 0);
     }
 
-    100% {
+    to {
       visibility: hidden;
       transform: translate3d(0, -100%, 0);
     }

@@ -6,12 +6,12 @@
 
 @if da-import("fadeInUp") == true {
   @keyframes fadeInUp {
-    0% {
+    from {
       opacity: 0;
       transform: translate3d(0, 100%, 0);
     }
 
-    100% {
+    to {
       opacity: 1;
       transform: none;
     }

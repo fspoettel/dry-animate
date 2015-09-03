@@ -6,7 +6,7 @@
 
 @if da-import("shake") == true {
   @keyframes shake {
-    0%, 100% {
+    from, to {
       transform: translate3d(0, 0, 0);
     }
 

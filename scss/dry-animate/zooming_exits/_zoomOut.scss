@@ -6,7 +6,7 @@
 
 @if da-import("zoomOut") == true {
   @keyframes zoomOut {
-    0% {
+    from {
       opacity: 1;
     }
 
@@ -15,7 +15,7 @@
       transform: scale3d(.3, .3, .3);
     }
 
-    100% {
+    to {
       opacity: 0;
     }
   }

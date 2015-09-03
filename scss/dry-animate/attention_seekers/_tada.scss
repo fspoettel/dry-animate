@@ -6,7 +6,7 @@
 
 @if da-import("tada") == true {
   @keyframes tada {
-    0% {
+    from {
       transform: scale3d(1, 1, 1);
     }
 
@@ -22,7 +22,7 @@
       transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
     }
 
-    100% {
+    to {
       transform: scale3d(1, 1, 1);
     }
   }

@@ -6,11 +6,11 @@
 
 @if da-import("fadeOutDown") == true {
   @keyframes fadeOutDown {
-    0% {
+    from {
       opacity: 1;
     }
 
-    100% {
+    to {
       opacity: 0;
       transform: translate3d(0, 100%, 0);
     }

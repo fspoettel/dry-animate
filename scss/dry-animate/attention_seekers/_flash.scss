@@ -6,7 +6,7 @@
 
 @if da-import("flash") == true {
   @keyframes flash {
-    0%, 50%, 100% {
+    from, 50%, to {
       opacity: 1;
     }
 

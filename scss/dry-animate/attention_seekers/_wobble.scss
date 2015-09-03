@@ -8,7 +8,7 @@
 
 @if da-import("wobble") == true {
   @keyframes wobble {
-    0% {
+    from {
       transform: none;
     }
 
@@ -32,7 +32,7 @@
       transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
     }
 
-    100% {
+    to {
       transform: none;
     }
   }

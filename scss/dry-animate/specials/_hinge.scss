@@ -6,7 +6,7 @@
 
 @if da-import("hinge") == true {
   @keyframes hinge {
-    0% {
+    from {
       transform-origin: top left;
       animation-timing-function: ease-in-out;
     }
@@ -24,7 +24,7 @@
       opacity: 1;
     }
 
-    100% {
+    to {
       transform: translate3d(0, 700px, 0);
       opacity: 0;
     }

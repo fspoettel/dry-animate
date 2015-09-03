@@ -6,11 +6,11 @@
 
 @if da-import("fadeOut") == true {
   @keyframes fadeOut {
-    0% {
+    from {
       opacity: 1;
     }
 
-    100% {
+    to {
       opacity: 0;
     }
   }

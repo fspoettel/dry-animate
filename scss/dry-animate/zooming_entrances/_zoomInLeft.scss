@@ -6,7 +6,7 @@
 
 @if da-import("zoomInLeft") == true {
   @keyframes zoomInLeft {
-    0% {
+    from {
       opacity: 0;
       transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
       animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
