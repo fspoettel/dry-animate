@@ -1,6 +1,6 @@
 {
   "name": "dry-animate",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "authors": [
     "felics <fspoettel@gmail.com>"
   ],
@@ -11,7 +11,8 @@
     "animate",
     "animate.css",
     "dry",
-    "sass"
+    "sass",
+    "animation"
   ],
   "license": "MIT",
   "ignore": [
