@@ -16,8 +16,12 @@
     "scss",
     "animate",
     "animate.scss",
-    "dry"
+    "dry",
+    "animation"
   ],
+  "eyeglass": {
+    "exports": "eyeglass-exports.js"
+  },
   "author": "Felix Spöttel",
   "license": "MIT",
   "bugs": {

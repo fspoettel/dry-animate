@@ -6,6 +6,8 @@
 
 ```
 bower install dry-animate
+
+npm install dry-animate
 ```
 
 ## Use:
