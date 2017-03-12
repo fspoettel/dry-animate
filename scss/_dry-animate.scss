@@ -8,10 +8,10 @@
 ///////////////////////////////
 
 // Default duration
-$da-duration: 1s;
+$da-duration: 1s !default;
 
 // Used animations. Can be single animations, animation-groups, or "all"
-$da-animations: (all);
+$da-animations: (all) !default;
 
 // Imports
 ///////////////////////////////
